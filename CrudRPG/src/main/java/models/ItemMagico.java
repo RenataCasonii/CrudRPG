@@ -22,7 +22,7 @@ public class ItemMagico {
     }
 
     public ItemMagico() {
-        // Construtor vazio para o JPA
+       
     }
 
     public ItemMagico(int id, String nome, TipoItem tipo, int forca, int defesa) {
@@ -42,7 +42,7 @@ public class ItemMagico {
                 if (forca != 0) throw new IllegalArgumentException("Armaduras não podem ter força");
             }
             case AMULETO -> {
-                // Amuleto pode ter os dois
+                
             }
         }
 
