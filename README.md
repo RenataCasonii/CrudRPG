@@ -3,7 +3,7 @@ Endpoints
 Personagens
 
 Método        	Endpoint	               Descrição
-POST	       api/personagens	        Cria novo personagem
+POST	    api/personagens	            Cria novo personagem
 GET       	/api/personagens	        Lista todos personagens
 GET	        /api/personagens/{id}	    Busca personagem por ID
 PUT       	/api/personagens/{id}	    Atualiza personagem
