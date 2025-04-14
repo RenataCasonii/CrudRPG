@@ -25,7 +25,7 @@ public class Personagem {
 
     private int defesaBase;
 
-    @Transient // não será persistida no banco
+    @Transient
     private List<ItemMagico> itensMagicos = new ArrayList<>();
 
     public enum Classe {
@@ -33,7 +33,7 @@ public class Personagem {
     }
 
     public Personagem() {
-        // Construtor vazio exigido pelo JPA
+        
     }
 
     public Personagem(int id, String nome, String nomeAventureiro, Classe classe,
@@ -51,7 +51,7 @@ public class Personagem {
         this.defesaBase = defesaBase;
     }
 
-    // Métodos get/set e lógicos (como adicionarItem) seguem iguais
+   
 
     public int getId() { return id; }
     public String getNome() { return nome; }
